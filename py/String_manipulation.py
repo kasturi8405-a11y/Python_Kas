@@ -26,7 +26,9 @@ This makes Python perfect for beginners and experts alike."""
 print(len(text))
 print(text.count("Python"))
 print(text.count("P"))
-print(sentence_count := text.split('\n')[0].count("Python"))
+print(sentence_count := text.split("."))
+print(len(sentence_count))
+
 
 
 
