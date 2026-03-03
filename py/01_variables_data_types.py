@@ -1,4 +1,7 @@
 
+from email.mime import text
+
+
 name = "Kasturi" #String
 age = 42         #integer
 weight = 60      #Float
@@ -23,9 +26,17 @@ print (x // y) #Floor division
 print (x % y) #Modulus
 print (x ** y) #Exponentiation)
 
-C = celsius = 100
-F = celsius * 9/5 + 32
-print (C)
-print (F)
-print (C, "Celsius is" , F, "Fahrenheit")
+celsius = 25
+fahrenheit = celsius * 9/5 + 32
+
+print("Celsius:", celsius)
+print("Fahrenheit:", fahrenheit)
+
+
+
+
+
+
+
+
 
